@@ -138,6 +138,7 @@ INSTALLED_APPS = [
     # project
     "django_test.profiles",
     "test_app",
+    "django_extensions",
 ]
 
 # A sample logging configuration. The only tangible logging
