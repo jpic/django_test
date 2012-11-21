@@ -125,18 +125,19 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    
+
     # theme
     "pinax_theme_bootstrap_account",
     "pinax_theme_bootstrap",
     "django_forms_bootstrap",
-    
+
     # external
     "account",
     "metron",
-    
+
     # project
     "django_test.profiles",
+    "test_app",
 ]
 
 # A sample logging configuration. The only tangible logging
