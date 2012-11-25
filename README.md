@@ -1,3 +1,1 @@
-Project to test answers I provide on StackOverflow.
-
-One branch = one question.
+It appears that the case is not important ie. ForeignKey('auth.user') works.
