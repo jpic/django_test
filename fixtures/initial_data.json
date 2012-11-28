@@ -1,6 +1,24 @@
 [
     {
         "pk": 1, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "test", 
+            "first_name": "", 
+            "last_name": "", 
+            "is_active": true, 
+            "is_superuser": true, 
+            "is_staff": true, 
+            "last_login": "2012-11-21T14:10:49.145Z", 
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "pbkdf2_sha256$10000$tCkHi1x2JhUR$EjeyACcbLLYX3Aj1Tg6uOv7HPBiSceEkWDA1pKw+Fi4=", 
+            "email": "t@tt.tt", 
+            "date_joined": "2012-11-21T14:10:49.145Z"
+        }
+    },
+    {
+        "pk": 1, 
         "model": "sites.site", 
         "fields": {
             "domain": "localhost:8000", 
@@ -8,11 +26,21 @@
         }
     },
     {
-        "pk": 2, 
-        "model": "sites.site", 
+        "pk": 1, 
+        "model": "test_app.environment", 
         "fields": {
-            "domain": "example.com", 
-            "name": "example.com"
+            "name": "test"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "test_app.userenvironment", 
+        "fields": {
+            "environment": 1, 
+            "default": true, 
+            "creation_datetime": "2012-11-28T11:30:22.098Z", 
+            "is_admin": true, 
+            "user": 1
         }
     }
 ]
